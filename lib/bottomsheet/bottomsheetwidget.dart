@@ -35,7 +35,6 @@ class BottomSheetWidget extends StatelessWidget {
             child: SingleChildScrollView(
               child: Container(
                 child: Column(
-
                   children: [
                     Container(
                       padding: const EdgeInsets.all(10),
