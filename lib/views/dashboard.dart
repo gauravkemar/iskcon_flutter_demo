@@ -7,6 +7,7 @@ import 'package:iskcon_flutter_demo/views/new_screen_loc_testing.dart';
 import 'package:iskcon_flutter_demo/views/set_geofence.dart';
 import 'package:iskcon_flutter_demo/views/using_stream_geolocator.dart';
 
+import '../audioplayer.dart';
 import '../bottomsheet/bottomsheetdemo.dart';
 
 class Dashboard extends StatefulWidget {
@@ -62,7 +63,7 @@ class _DashboardState extends State<Dashboard> {
       break;
       case 7: {
         Navigator.push(
-            context, MaterialPageRoute(builder: (context) => BottomSheetMap()));
+            context, MaterialPageRoute(builder: (context) => AudioDemo()));
       }
       break;
     }
